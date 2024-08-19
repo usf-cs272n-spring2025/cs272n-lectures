@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>Lectures</artifactId>
 	<groupId>edu.usfca.cs272</groupId>
-	<version>2024-01</version>
+	<version>2024-08</version>
 
 	<properties>
 		<!-- properties changed via command line -->
@@ -15,22 +15,22 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- plugin versions (must be exact) -->
-		<versions.maven.compiler>3.12.1</versions.maven.compiler>
-		<versions.maven.surefire>3.2.5</versions.maven.surefire>
+		<versions.maven.compiler>3.13.0</versions.maven.compiler>
+		<versions.maven.surefire>3.3.1</versions.maven.surefire>
 
 		<!-- dependency versions -->
 		<!-- https://maven.apache.org/pom.html#dependency-version-requirement-specification -->
-		<versions.junit.jupiter>5.10.1</versions.junit.jupiter>
-		<versions.junit.launcher>1.10.1</versions.junit.launcher>
+		<versions.junit.jupiter>5.11.0</versions.junit.jupiter>
+		<versions.junit.launcher>1.11.0</versions.junit.launcher>
 
-		<versions.apache.opennlp>2.3.1</versions.apache.opennlp>
-		<versions.apache.log4j2>2.22.1</versions.apache.log4j2>
-		<versions.commons.lang3>3.14.0</versions.commons.lang3>
-		<versions.commons.text>1.11.0</versions.commons.text>
+		<versions.apache.opennlp>2.4.0</versions.apache.opennlp>
+		<versions.apache.log4j2>2.23.1</versions.apache.log4j2>
+		<versions.commons.lang3>3.16.0</versions.commons.lang3>
+		<versions.commons.text>1.12.0</versions.commons.text>
 
-		<versions.jakarta.servlet>5.0.0</versions.jakarta.servlet>
-		<versions.eclipse.jetty>11.0.19</versions.eclipse.jetty>
-		<versions.mariadb.jdbc>3.3.2</versions.mariadb.jdbc>
+		<versions.jakarta.servlet>6.0.0</versions.jakarta.servlet>
+		<versions.eclipse.jetty>12.0.12</versions.eclipse.jetty>
+		<versions.mariadb.jdbc>3.4.1</versions.mariadb.jdbc>
 	</properties>
 
 	<build>
@@ -137,8 +137,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-servlet</artifactId>
+			<groupId>org.eclipse.jetty.ee10</groupId>
+			<artifactId>jetty-ee10-servlet</artifactId>
 			<version>${versions.eclipse.jetty}</version>
 		</dependency>
 
