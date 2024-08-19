@@ -1,4 +1,4 @@
-package edu.usfca.cs272;
+package edu.usfca.cs272.lectures.basics;
 
 import java.util.List;
 import java.util.SequencedCollection;
