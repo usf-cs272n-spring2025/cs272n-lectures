@@ -77,4 +77,8 @@ public class WidgetDemo {
 			System.err.println(Widget.getNames());
 		}
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private WidgetDemo() {
+	}
 }

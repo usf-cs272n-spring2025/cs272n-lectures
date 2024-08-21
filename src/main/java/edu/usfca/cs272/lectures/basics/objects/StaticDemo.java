@@ -7,7 +7,7 @@ package edu.usfca.cs272.lectures.basics.objects;
  * @author CS 272 Software Development (University of San Francisco)
  * @version Fall 2024
  */
-@SuppressWarnings({"static-access", "static"}) // (Don't do this!)
+@SuppressWarnings({"static-access", "static", "missing-explicit-ctor"}) // (Don't do this!)
 public class StaticDemo {
 	/** Example instance member; belongs to a specific object/instance. */
 	private int instanceMember;
