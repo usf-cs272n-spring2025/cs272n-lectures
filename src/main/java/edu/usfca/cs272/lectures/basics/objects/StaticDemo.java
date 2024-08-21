@@ -7,6 +7,7 @@ package edu.usfca.cs272.lectures.basics.objects;
  * @author CS 272 Software Development (University of San Francisco)
  * @version Fall 2024
  */
+@SuppressWarnings({"static-access", "static"}) // (Don't do this!)
 public class StaticDemo {
 	/** Example instance member; belongs to a specific object/instance. */
 	private int instanceMember;
@@ -19,7 +20,6 @@ public class StaticDemo {
 	 *
 	 * @param args unused
 	 */
-	@SuppressWarnings("static-access") // (Don't do this!)
 	public static void main(String[] args) {
 		/*
 		 * Lets create a StaticDemo object. Remember, a class is like a blueprint. An
