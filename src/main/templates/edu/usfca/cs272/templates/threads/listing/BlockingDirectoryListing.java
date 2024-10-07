@@ -5,6 +5,7 @@ import java.io.UncheckedIOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -30,7 +31,7 @@ public class BlockingDirectoryListing {
 	}
 
 	// TODO Original list(...) method.
-	private static void list(Path path, Set<Path> paths) throws IOException {
+	public static void list(Path path, Collection<Path> paths) throws IOException {
 		try (DirectoryStream<Path> stream = Files.newDirectoryStream(path)) {
 			for (Path current : stream) {
 				paths.add(current);
@@ -71,7 +72,7 @@ public class BlockingDirectoryListing {
 	}
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		Path path = Path.of(".");
+		Path path = Path.of("src");
 		Set<Path> actual = list(path);
 		Set<Path> expected = SerialDirectoryListing.list(path);
 		System.out.println(actual.equals(expected));
