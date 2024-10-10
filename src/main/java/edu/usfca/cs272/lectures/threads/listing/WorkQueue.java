@@ -129,7 +129,7 @@ public class WorkQueue {
 				while (true) {
 					synchronized (tasks) {
 						while (tasks.isEmpty() && !shutdown) {
-							log.debug("Work queue worker waiting...");
+							log.trace("Work queue worker waiting...");
 							tasks.wait();
 						}
 
@@ -141,12 +141,12 @@ public class WorkQueue {
 							break;
 						}
 
-						log.debug("Worker found {} tasks...", tasks.size());
+						log.trace("Worker found {} tasks...", tasks.size());
 						task = tasks.removeFirst();
 					}
 
 					try {
-						log.trace("Work queue worker running work.");
+						log.trace("Work queue worker running work...");
 						task.run();
 					}
 					catch (RuntimeException e) {

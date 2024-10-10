@@ -54,3 +54,11 @@ public class WorkQueue {
 		}
 	}
 }
+/* TODO
+log.debug("Work queue initialized with {} worker threads.", workers.length);
+log.debug("Work queue shutdown triggered.");
+log.trace("Work queue worker waiting...");
+log.debug("Worker detected shutdown...");
+log.trace("Worker found {} tasks...", tasks.size());
+log.trace("Work queue worker running work...");
+*/
