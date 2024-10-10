@@ -69,6 +69,11 @@ public class WorkQueue {
 	 * @param task work request (in the form of a {@link Runnable} object)
 	 */
 	public void execute(Runnable task) {
+		// safe to do unsynchronized due to volatile keyword
+		if (shutdown) {
+			throw new IllegalStateException("Work queue is shutdown.");
+		}
+
 		synchronized (tasks) {
 			tasks.addLast(task);
 			tasks.notifyAll();
@@ -83,10 +88,11 @@ public class WorkQueue {
 		// safe to do unsynchronized due to volatile keyword
 		shutdown = true;
 
-		log.debug("Work queue triggering shutdown...");
 		synchronized (tasks) {
 			tasks.notifyAll();
 		}
+
+		log.debug("Work queue shutdown triggered.");
 	}
 
 	/**
