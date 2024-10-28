@@ -24,12 +24,12 @@
 		<versions.junit.launcher>1.11.0</versions.junit.launcher>
 
 		<versions.apache.opennlp>2.4.0</versions.apache.opennlp>
-		<versions.apache.log4j2>2.23.1</versions.apache.log4j2>
-		<versions.commons.lang3>3.16.0</versions.commons.lang3>
+		<versions.apache.log4j2>2.24.1</versions.apache.log4j2>
+		<versions.commons.lang3>3.17.0</versions.commons.lang3>
 		<versions.commons.text>1.12.0</versions.commons.text>
 
 		<versions.jakarta.servlet>6.0.0</versions.jakarta.servlet>
-		<versions.eclipse.jetty>12.0.12</versions.eclipse.jetty>
+		<versions.eclipse.jetty>12.0.14</versions.eclipse.jetty>
 		<versions.mariadb.jdbc>3.4.1</versions.mariadb.jdbc>
 	</properties>
 
