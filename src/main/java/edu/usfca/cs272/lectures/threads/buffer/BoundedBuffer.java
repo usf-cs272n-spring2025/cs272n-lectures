@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
  * data structure. Uses the produce-consumer model to demo this data structure
  * with multiple threads.
  *
- * <h3>Bounded Buffer</h3>
+ * <h2>Bounded Buffer</h2>
  *
  * <p>
  * Think of a bounded buffer as a circular buffer. For example:
