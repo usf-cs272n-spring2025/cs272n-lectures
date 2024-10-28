@@ -43,6 +43,18 @@ public class CookieLandingServlet extends HttpServlet {
 	/** Location of the HTML template for this servlet. */
 	private static final Path TEMPLATE_PATH = Path.of("src", "main", "resources", "cookies",  "cookie_landing.html");
 
+	/** HTML template. */
+	private final String template;
+
+	/**
+	 * Initializes the HTML template.
+	 *
+	 * @throws IOException if unable to load the template
+	 */
+	public CookieLandingServlet() throws IOException {
+		template = Files.readString(TEMPLATE_PATH, UTF_8);
+	}
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		log.info(request);
@@ -61,7 +73,6 @@ public class CookieLandingServlet extends HttpServlet {
 		values.put("action", "/visits");
 
 		// generate html (approach inefficient for large templates)
-		String template = Files.readString(TEMPLATE_PATH, UTF_8);
 		String html = StringSubstitutor.replace(template, values);
 
 		// setup response

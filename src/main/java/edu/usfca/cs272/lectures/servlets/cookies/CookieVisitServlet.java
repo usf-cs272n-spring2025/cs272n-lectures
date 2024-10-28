@@ -61,6 +61,18 @@ public class CookieVisitServlet extends HttpServlet {
 	/** Location of the HTML template for this servlet. */
 	private static final Path TEMPLATE_PATH = Path.of("src", "main", "resources", "cookies",  "cookie_visits.html");
 
+	/** HTML template. */
+	private final String template;
+
+	/**
+	 * Initializes the HTML template.
+	 *
+	 * @throws IOException if unable to load the template
+	 */
+	public CookieVisitServlet() throws IOException {
+		template = Files.readString(TEMPLATE_PATH, UTF_8);
+	}
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		log.info(request);
@@ -154,7 +166,6 @@ public class CookieVisitServlet extends HttpServlet {
 		}
 
 		// generate html
-		String template = Files.readString(TEMPLATE_PATH, UTF_8);
 		String html = StringSubstitutor.replace(template, values);
 
 		// setup response

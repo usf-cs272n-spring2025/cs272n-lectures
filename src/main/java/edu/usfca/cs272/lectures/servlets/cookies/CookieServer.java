@@ -53,4 +53,8 @@ public class CookieServer {
 		server.start();
 		server.join();
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private CookieServer() {
+	}
 }
