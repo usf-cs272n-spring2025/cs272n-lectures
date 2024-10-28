@@ -69,4 +69,8 @@ public class SimpleFileServer {
 		// http://localhost:8080/visits
 		// http://localhost:8080/src/
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private SimpleFileServer() {
+	}
 }

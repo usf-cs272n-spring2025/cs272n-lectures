@@ -74,6 +74,9 @@ public class TodayServer {
 		/** Title of web page. */
 		private static final String TITLE = "Today";
 
+		/** Creates a new instance of this class. */
+		public TodayServlet() {}
+
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
@@ -114,5 +117,9 @@ public class TodayServer {
 		LocalDateTime today = LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern(format);
 		return today.format(formatter);
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private TodayServer() {
 	}
 }

@@ -70,6 +70,9 @@ public class VisitServer {
 		/** The title to use for this webpage. */
 		private static final String TITLE = "Visits";
 
+		/** Creates a new instance of this class. */
+		public VisitServlet() {}
+
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
@@ -107,5 +110,9 @@ public class VisitServer {
 			response.setContentType("text/html");
 			response.setStatus(HttpServletResponse.SC_OK);
 		}
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private VisitServer() {
 	}
 }

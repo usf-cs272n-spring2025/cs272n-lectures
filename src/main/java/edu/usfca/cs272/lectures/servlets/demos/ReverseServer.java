@@ -59,6 +59,9 @@ public class ReverseServer {
 		/** The title to use for this webpage. */
 		private static final String TITLE = "Reverse";
 
+		/** Creates a new instance of this class. */
+		public ReverseGetServlet() {}
+
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
@@ -134,6 +137,9 @@ public class ReverseServer {
 
 		/** The title to use for this webpage. */
 		private static final String TITLE = "Reverse";
+
+		/** Creates a new instance of this class. */
+		public ReversePostServlet() {}
 
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -225,5 +231,9 @@ public class ReverseServer {
 		 * Cons: For this simple example, duplicate display logic. Not re-displaying
 		 * form after generating result.
 		 */
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private ReverseServer() {
 	}
 }

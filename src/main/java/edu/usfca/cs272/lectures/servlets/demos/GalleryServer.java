@@ -100,6 +100,9 @@ public class GalleryServer {
 		/** The title to use for this webpage. */
 		private static final String TITLE = "Gallery";
 
+		/** Creates a new instance of this class. */
+		public GalleryServlet() {}
+
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response)
 				throws ServletException, IOException {
@@ -145,5 +148,9 @@ public class GalleryServer {
 			response.setContentType("text/html");
 			response.setStatus(HttpServletResponse.SC_OK);
 		}
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private GalleryServer() {
 	}
 }

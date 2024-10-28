@@ -93,4 +93,8 @@ public class ContextServer {
 		 * http://localhost:8080/hello
 		 */
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private ContextServer() {
+	}
 }
