@@ -160,6 +160,7 @@ public class BoundedBuffer<E> {
 	 * @see <a href="https://stackoverflow.com/questions/529085/how-to-create-a-generic-array-in-java">How to create a generic array in Java?</a>
 	 */
 	@SafeVarargs
+	@SuppressWarnings("varargs")
 	private static <E> E[] newArray(int length, E... unused) {
 		return Arrays.copyOf(unused, length);
 	}
