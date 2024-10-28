@@ -9,6 +9,7 @@ public class SimpleServer {
 
 	public static void main(String[] args) throws IOException {
 		String line = null;
+		boolean shutdown = false;
 
 		System.out.println("Server: Waiting for connection...");
 		System.out.println("Server: Closing socket.");

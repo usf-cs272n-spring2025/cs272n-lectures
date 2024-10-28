@@ -277,4 +277,8 @@ public class HttpsFetcher {
 //		System.out.println();
 //		connection.disconnect();
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private HttpsFetcher() {
+	}
 }

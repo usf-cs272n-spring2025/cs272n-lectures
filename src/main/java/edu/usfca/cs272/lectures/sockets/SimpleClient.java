@@ -35,24 +35,28 @@ public class SimpleClient {
 			System.out.println("Client: Started...");
 			String input = null;
 
-			while (!socket.isClosed()) {
-				// read line from console
-				input = reader.readLine();
-
+			// while lines to read from console
+			while ((input = reader.readLine()) != null) {
 				// send to server over socket
 				writer.println(input);
 				writer.flush();
 
 				// check for shutdown cases
 				if (input.equals(SimpleServer.EOT)) {
-					System.out.println("Client: Ending client.");
-					socket.close();
+					System.out.println("Client: Ending client...");
+					break; // closes resources
 				}
 				else if (input.equals(SimpleServer.EXIT)) {
-					System.out.println("Client: Shutting down server.");
-					socket.close();
+					System.out.println("Client: Shutting down server...");
+					break; // closes resources
 				}
 			}
 		}
+
+		System.out.println("Client: Client disconnected.");
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private SimpleClient() {
 	}
 }

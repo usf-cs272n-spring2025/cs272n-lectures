@@ -33,10 +33,11 @@ public class SimpleServer {
 	 */
 	public static void main(String[] args) throws IOException {
 		String line = null;
+		boolean shutdown = false;
 
 		try (ServerSocket server = new ServerSocket(PORT);) {
 			// keep looping to accept clients
-			while (!server.isClosed()) {
+			while (!shutdown) {
 				System.out.println("Server: Waiting for connection...");
 
 				try (
@@ -47,21 +48,19 @@ public class SimpleServer {
 						InputStreamReader input = new InputStreamReader(socket.getInputStream());
 						BufferedReader reader = new BufferedReader(input);
 				) {
-					// while client is connected
-					while (!socket.isClosed()) {
-						// read line from client socket
-						line = reader.readLine();
+					// while lines to read from socket connection
+					while ((line = reader.readLine()) != null) {
 						System.out.println("Server: " + line);
 
 						// check for shutdown cases
 						if (line.equals(EOT)) {
 							System.out.println("Server: Closing socket.");
-							socket.close();
+							break; // triggers client to close
 						}
 						else if (line.equals(EXIT)) {
 							System.out.println("Server: Shutting down.");
-							socket.close(); // close client connection
-							server.close(); // close server connection
+							shutdown = true; // triggers server to close
+							break; // triggers client to close
 						}
 					}
 				}
@@ -71,5 +70,9 @@ public class SimpleServer {
 
 			System.out.println("Server: Server disconnected.");
 		}
+	}
+
+	/** Prevent instantiating this class of static methods. */
+	private SimpleServer() {
 	}
 }
