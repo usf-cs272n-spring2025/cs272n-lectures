@@ -140,4 +140,8 @@ public class AdventureServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
+
+	/** Creates a new instance of this class. */
+	public AdventureServlet() {
+	}
 }
