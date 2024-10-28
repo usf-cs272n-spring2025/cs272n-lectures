@@ -47,10 +47,10 @@ public class BulmaMessageServlet extends HttpServlet {
 	/** The data structure to use for storing messages. */
 	private final LinkedList<MessageServlet.Message> messages;
 
-	/** Template for starting HTML (including <head> tag). **/
+	/** Template for starting HTML (including head tag). **/
 	private final String headTemplate;
 
-	/** Template for ending HTML (including <foot> tag). **/
+	/** Template for ending HTML (including foot tag). **/
 	private final String footTemplate;
 
 	/** Template for individual message HTML. **/
