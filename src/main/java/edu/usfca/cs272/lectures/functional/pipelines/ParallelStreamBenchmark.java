@@ -341,11 +341,11 @@ public class ParallelStreamBenchmark {
 	/**
 	 * Stores benchmark results.
 	 *
-	 * @param seconds the average number of seconds
+	 * @param minimum the minimum number of seconds
+	 * @param average the average number of seconds
 	 * @param name the name of the benchmark
 	 * @param unused the unused count value (help prevent over-optimization)
 	 */
-	@SuppressWarnings("javadoc") // javadoc + record bug: https://bugs.eclipse.org/bugs/show_bug.cgi?id=572367
 	public record BenchmarkResult(double minimum, double average, String name, long unused) {
 
 	}
