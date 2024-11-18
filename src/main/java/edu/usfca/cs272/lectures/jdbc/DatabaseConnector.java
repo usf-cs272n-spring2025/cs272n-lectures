@@ -78,11 +78,7 @@ public class DatabaseConnector {
 	 */
 	public static Properties loadConfig(Path path) throws FileNotFoundException, IOException {
 		// Specify which keys must be in properties file
-		Set<String> required = new HashSet<>();
-		required.add("username");
-		required.add("password");
-		required.add("database");
-		required.add("hostname");
+		Set<String> required = Set.of("username", "password", "database", "hostname");
 
 		// Load properties file
 		Properties config = new Properties();

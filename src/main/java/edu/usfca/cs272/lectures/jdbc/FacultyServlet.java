@@ -39,7 +39,7 @@ public class FacultyServlet extends HttpServlet {
 	 *
 	 * @see Serializable
 	 */
-	private static final long serialVersionUID = 202308;
+	private static final long serialVersionUID = 202440;
 
 	/** Logger */
 	private static final Logger log = LogManager.getLogger();
