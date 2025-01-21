@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>Lectures</artifactId>
 	<groupId>edu.usfca.cs272</groupId>
-	<version>2024-08</version>
+	<version>2025-01</version>
 
 	<properties>
 		<!-- properties changed via command line -->
