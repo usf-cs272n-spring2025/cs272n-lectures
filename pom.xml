@@ -16,10 +16,9 @@
 
 		<!-- plugin versions (must be exact) -->
 		<versions.maven.compiler>3.13.0</versions.maven.compiler>
-		<versions.maven.surefire>3.5.1</versions.maven.surefire>
+		<versions.maven.surefire>3.5.2</versions.maven.surefire>
 
 		<!-- dependency versions -->
-		<!-- https://maven.apache.org/pom.html#dependency-version-requirement-specification -->
 		<versions.junit.jupiter>5.11.4</versions.junit.jupiter>
 		<versions.junit.launcher>1.11.4</versions.junit.launcher>
 
