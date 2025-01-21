@@ -10,7 +10,7 @@ import java.util.Set;
  * {@link WordGroup} interface.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class WordLength implements WordGroup<Integer> {
 

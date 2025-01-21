@@ -7,7 +7,7 @@ import java.util.Comparator;
  * are sorted.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class GadgetComparator implements Comparator<Gadget> {
 	/**

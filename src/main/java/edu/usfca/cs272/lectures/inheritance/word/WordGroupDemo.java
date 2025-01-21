@@ -8,7 +8,7 @@ package edu.usfca.cs272.lectures.inheritance.word;
  * @see WordLength
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class WordGroupDemo {
 	/**

@@ -37,7 +37,7 @@ import javax.net.ssl.SSLSocketFactory;
  * connections to do the same manually (well suited for web crawling).
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class HttpsFetcher {
 	/**

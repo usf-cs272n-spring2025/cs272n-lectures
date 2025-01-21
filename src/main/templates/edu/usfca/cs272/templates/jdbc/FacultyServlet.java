@@ -26,7 +26,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class FacultyServlet extends HttpServlet {
-	private static final long serialVersionUID = 202440;
+	private static final long serialVersionUID = 202501;
 	private static final Logger log = LogManager.getLogger();
 
 	private final DatabaseConnector connector;

@@ -23,7 +23,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class BulmaMessageServlet extends HttpServlet {
-	private static final long serialVersionUID = 202408;
+	private static final long serialVersionUID = 202501;
 	private static final String title = "Fancy Messages";
 	private static final Logger log = LogManager.getLogger();
 	private static final Path base = MessageServlet.base;

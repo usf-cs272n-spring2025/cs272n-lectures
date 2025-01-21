@@ -15,7 +15,7 @@ import org.apache.logging.log4j.Logger;
  * using the log4j2 package.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class CharacterCounter {
 	/**

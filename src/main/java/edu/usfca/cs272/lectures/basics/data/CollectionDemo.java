@@ -10,7 +10,7 @@ import java.util.TreeSet;
  * illustrates the difference between a different types of lists and sets.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class CollectionDemo {
 

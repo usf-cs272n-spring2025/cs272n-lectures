@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Demonstrates different strategies for dealing with exceptions.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class SimpleGrader {
 	/**

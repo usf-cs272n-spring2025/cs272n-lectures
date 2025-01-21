@@ -7,7 +7,7 @@ import java.util.HashSet;
  * Demonstrates how collections can be nested.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class NestedMapDemo {
 	/**

@@ -7,7 +7,7 @@ import java.util.TreeSet;
  * Class with code used by the mutability quizzes.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class MutabilityQuizDemos {
 	/** Stores text. */

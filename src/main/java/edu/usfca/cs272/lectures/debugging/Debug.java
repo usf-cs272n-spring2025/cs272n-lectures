@@ -5,7 +5,7 @@ package edu.usfca.cs272.lectures.debugging;
  * framework instead.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Debug {
 	/** Set this variable to {@code true} to turn on debug messages. */

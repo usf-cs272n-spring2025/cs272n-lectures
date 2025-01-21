@@ -9,7 +9,7 @@ import org.eclipse.jetty.server.Server;
  * as well as how to initialize servlets when you need to call its constructor.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class MessageServer {
 	/** The hard-coded port to run this server. */

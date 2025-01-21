@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
  * the log4j2.xml configuration file.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Log4jDemo {
 	/** The root logger. */

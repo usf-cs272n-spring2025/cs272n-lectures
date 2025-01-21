@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * collection is a bad idea.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class RemoveDemo {
 	/** Example used to demonstrate remove methods. */

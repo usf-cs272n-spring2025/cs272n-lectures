@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * not do full email validation. Demonstrates unit testing.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class EmailParser {
 	/** Reconstructed email. */

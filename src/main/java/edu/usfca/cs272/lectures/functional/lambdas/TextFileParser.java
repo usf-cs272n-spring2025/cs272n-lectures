@@ -16,7 +16,7 @@ import java.util.function.Function;
  * Class created to demonstrate lambda functions (not yet streams).
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class TextFileParser {
 	/**

@@ -15,7 +15,7 @@ import java.util.TreeSet;
  * @param <E> element type sorted in set
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class IndexedSet<E> {
 	/** Set of elements */

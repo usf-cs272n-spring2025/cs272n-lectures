@@ -14,7 +14,7 @@ import java.time.LocalTime;
  *   SEI CERT Oracle Coding Standard for Java</a>
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class LockDemo {
 	/** The first worker thread. */

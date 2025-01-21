@@ -7,7 +7,7 @@ package edu.usfca.cs272.lectures.functional.lambdas;
  * @see LambdaDemo
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class SimpleClass implements SimpleInterface {
 	@Override

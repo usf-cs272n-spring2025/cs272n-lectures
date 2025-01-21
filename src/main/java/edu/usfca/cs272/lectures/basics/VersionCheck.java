@@ -7,7 +7,7 @@ import java.util.SequencedCollection;
  * Designed to catch older Java installations by using new Java features.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class VersionCheck {
 	/**

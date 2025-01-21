@@ -34,14 +34,14 @@ import jakarta.servlet.http.HttpServletResponse;
  * @see MessageServer
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class MessageServlet extends HttpServlet {
 	/** The logger to use for this servlet. */
 	private static final Logger log = LogManager.getLogger();
 
 	/** Class version for serialization, in [YEAR][TERM] format (unused). */
-	private static final long serialVersionUID = 202408;
+	private static final long serialVersionUID = 202501;
 
 	/** Format used for all date output. */
 	public static final String longDateFormat = "hh:mm a 'on' EEEE, MMMM dd yyyy";

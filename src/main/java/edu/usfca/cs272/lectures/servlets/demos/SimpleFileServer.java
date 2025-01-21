@@ -17,7 +17,7 @@ import org.eclipse.jetty.util.resource.ResourceFactory;
  * and dynamic content.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class SimpleFileServer {
 	/** The hard-coded port to run this server. */

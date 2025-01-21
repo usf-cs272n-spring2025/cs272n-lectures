@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
  *   Java Theory and Practice: Thread Pools and Work Queues</a>
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class WorkQueue {
 	/** Workers that wait until work (or tasks) are available. */

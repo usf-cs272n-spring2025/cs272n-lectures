@@ -16,7 +16,7 @@ import org.eclipse.jetty.server.handler.DefaultHandler;
  * @see Direction
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class AdventureServer {
 	/**

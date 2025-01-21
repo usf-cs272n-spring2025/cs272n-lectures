@@ -18,7 +18,7 @@ import java.util.TreeSet;
  * of many approaches, all with different space and time requirements.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Problem1d {
 	/**

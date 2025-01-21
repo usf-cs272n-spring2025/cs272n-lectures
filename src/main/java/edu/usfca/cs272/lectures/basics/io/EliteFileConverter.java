@@ -30,7 +30,7 @@ import java.util.List;
  * @see <a href="https://en.wikipedia.org/wiki/Leet">Leet - Wikipedia</a>
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class EliteFileConverter {
 	/**

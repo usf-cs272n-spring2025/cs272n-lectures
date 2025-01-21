@@ -14,7 +14,7 @@ import java.util.NoSuchElementException;
  * @see IndexedSet
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class SynchronizedIndexedSet<E> extends IndexedSet<E> {
 	/**

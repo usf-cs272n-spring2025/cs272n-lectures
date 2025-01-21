@@ -19,7 +19,7 @@ import java.util.stream.IntStream;
  * using streams and lambda functions that were introduced in Java 8.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Problem1e {
 	/**

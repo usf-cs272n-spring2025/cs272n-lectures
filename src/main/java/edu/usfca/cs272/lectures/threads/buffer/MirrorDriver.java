@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
  * @see BoundedBuffer
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class MirrorDriver {
 	/** The bounded buffer */

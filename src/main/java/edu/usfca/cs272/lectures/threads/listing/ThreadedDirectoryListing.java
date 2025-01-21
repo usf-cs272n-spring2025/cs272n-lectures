@@ -21,7 +21,7 @@ import org.apache.logging.log4j.core.config.Configurator;
  * cleaned up by our garbage collector later.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class ThreadedDirectoryListing {
 	/** Logger to use for this class. */

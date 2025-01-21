@@ -5,7 +5,7 @@ package edu.usfca.cs272.lectures.basics.objects;
  * members/variables.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 @SuppressWarnings({"static-access", "static", "missing-explicit-ctor"}) // (Don't do this!)
 public class StaticDemo {

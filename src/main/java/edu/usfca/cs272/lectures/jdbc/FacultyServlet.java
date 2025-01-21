@@ -31,7 +31,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * Demonstrates how to interact with a database server using JDBC and Jetty.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class FacultyServlet extends HttpServlet {
 	/**
@@ -39,7 +39,7 @@ public class FacultyServlet extends HttpServlet {
 	 *
 	 * @see Serializable
 	 */
-	private static final long serialVersionUID = 202440;
+	private static final long serialVersionUID = 202501;
 
 	/** Logger */
 	private static final Logger log = LogManager.getLogger();

@@ -13,7 +13,7 @@ import java.net.Socket;
  * @see SimpleClient
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class SimpleServer {
 	/** The port for this server. Choose an unused port number. Should usually be configurable! */

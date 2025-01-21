@@ -22,7 +22,7 @@ import org.apache.logging.log4j.core.config.Configurator;
  * can avoid needing the task manager class entirely!
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class QueuedDirectoryListing {
 	/** Logger to use for this class. */

@@ -9,7 +9,7 @@ import java.util.TreeSet;
  * This class demonstrates very basic upcasting and downcasting.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class CastDemo {
 	// TODO Test change here!

@@ -34,11 +34,11 @@ import jakarta.servlet.http.HttpServletResponse;
  * @see CookieLandingServlet
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class CookieVisitServlet extends HttpServlet {
 	/** Class version for serialization, in [YEAR][TERM] format (unused). */
-	private static final long serialVersionUID = 202408;
+	private static final long serialVersionUID = 202501;
 
 	/** Logger for this servlet. */
 	private static final Logger log = LogManager.getLogger();

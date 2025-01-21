@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 public class CookieVisitServlet extends HttpServlet {
-	public static final long serialVersionUID = 202408;
+	public static final long serialVersionUID = 202501;
 	public static final Logger log = LogManager.getLogger();
 	public static final String TITLE = "Cookies!";
 	public static final String COOKIES_OK = "Cookies";

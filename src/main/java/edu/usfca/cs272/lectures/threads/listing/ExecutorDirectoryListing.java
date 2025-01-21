@@ -27,7 +27,7 @@ import org.apache.logging.log4j.core.config.Configurator;
  * can avoid needing the TaskManager class entirely!
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class ExecutorDirectoryListing {
 	/** Logger to use for this class. */

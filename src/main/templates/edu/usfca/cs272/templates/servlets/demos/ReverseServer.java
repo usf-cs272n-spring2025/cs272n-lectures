@@ -32,7 +32,7 @@ public class ReverseServer {
 	}
 
 	public static class ReverseGetServlet extends HttpServlet {
-		private static final long serialVersionUID = 202408;
+		private static final long serialVersionUID = 202501;
 		private static final String TITLE = "Reverse";
 
 		@Override
@@ -73,7 +73,7 @@ public class ReverseServer {
 	}
 
 	public static class ReversePostServlet extends HttpServlet {
-		private static final long serialVersionUID = 202408;
+		private static final long serialVersionUID = 202501;
 		private static final String TITLE = "Reverse";
 
 		@Override

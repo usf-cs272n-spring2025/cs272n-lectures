@@ -13,7 +13,7 @@ import java.util.Scanner;
  * additional code to handle flexible user input.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Problem1c {
 	/**

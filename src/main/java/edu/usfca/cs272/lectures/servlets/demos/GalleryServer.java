@@ -27,7 +27,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * local web/foto directory with several jpg images to function properly.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class GalleryServer {
 	/** The hard-coded port to run this server. */
@@ -95,7 +95,7 @@ public class GalleryServer {
 	 */
 	public static class GalleryServlet extends HttpServlet {
 		/** Class version for serialization, in [YEAR][TERM] format (unused). */
-		private static final long serialVersionUID = 202408;
+		private static final long serialVersionUID = 202501;
 
 		/** The title to use for this webpage. */
 		private static final String TITLE = "Gallery";

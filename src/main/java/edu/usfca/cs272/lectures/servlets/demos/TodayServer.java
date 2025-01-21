@@ -21,7 +21,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * The web page will display the current date/time when loaded.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class TodayServer {
 	/** The hard-coded port to run this server. */
@@ -69,7 +69,7 @@ public class TodayServer {
 	 */
 	public static class TodayServlet extends HttpServlet {
 		/** Class version for serialization, in [YEAR][TERM] format (unused). */
-		private static final long serialVersionUID = 202408;
+		private static final long serialVersionUID = 202501;
 
 		/** Title of web page. */
 		private static final String TITLE = "Today";

@@ -17,7 +17,7 @@ import java.util.TreeSet;
  * will vary if invalid values are provided!
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class RandomArrayTotal {
 	/**

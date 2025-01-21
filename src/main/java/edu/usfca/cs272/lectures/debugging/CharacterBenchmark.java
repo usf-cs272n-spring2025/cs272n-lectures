@@ -19,7 +19,7 @@ import org.apache.logging.log4j.core.config.Configurator;
  * @see CharacterBenchmark
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class CharacterBenchmark {
 	/**

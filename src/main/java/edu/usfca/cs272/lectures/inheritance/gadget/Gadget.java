@@ -5,7 +5,7 @@ package edu.usfca.cs272.lectures.inheritance.gadget;
  * by implementing the {@link Comparable} interface.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class Gadget implements Comparable<Gadget> {
 	/** The gadget ID. */

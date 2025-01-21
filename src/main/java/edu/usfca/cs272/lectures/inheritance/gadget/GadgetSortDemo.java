@@ -11,7 +11,7 @@ import java.util.TreeSet;
  * sorted.
  *
  * @author CS 272 Software Development (University of San Francisco)
- * @version Fall 2024
+ * @version Spring 2025
  */
 public class GadgetSortDemo {
 	// What should be the type of parameter? List? Set? Collection?
