@@ -7,7 +7,7 @@
 	<properties>
 		<!-- properties changed via command line -->
 		<config.werror>false</config.werror>
-		<config.xlint>-Xlint:all,-path,-processing,-options</config.xlint>
+		<config.xlint>-Xlint:all,-path,-processing,-classfile,-options</config.xlint>
 		<config.xdoclint>-Xdoclint:all/private</config.xdoclint>
 
 		<!-- project settings -->
