@@ -92,4 +92,8 @@ public class StringDemo {
 		 * equals() instead of == for any kind of object.
 		 */
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private StringDemo() {
+	}
 }

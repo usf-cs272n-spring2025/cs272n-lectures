@@ -127,4 +127,8 @@ public class ObjectDemo {
 		thisDemo();
 		equalsDemo();
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private ObjectDemo() {
+	}
 }

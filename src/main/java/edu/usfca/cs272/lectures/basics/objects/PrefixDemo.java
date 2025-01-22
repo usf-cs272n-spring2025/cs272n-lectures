@@ -82,4 +82,8 @@ public class PrefixDemo {
 		map.getPrefixes().clear();
 		System.out.println(map);
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private PrefixDemo() {
+	}
 }

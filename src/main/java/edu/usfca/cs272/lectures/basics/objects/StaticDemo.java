@@ -71,4 +71,8 @@ public class StaticDemo {
 		System.out.println(demo1.instanceMember + ", " + demo1.classMember);
 		System.out.println(demo2.instanceMember + ", " + demo2.classMember);
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private StaticDemo() {
+	}
 }
