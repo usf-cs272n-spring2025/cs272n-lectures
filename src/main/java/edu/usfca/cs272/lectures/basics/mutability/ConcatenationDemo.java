@@ -250,4 +250,8 @@ public class ConcatenationDemo {
 		profile.put("elapsed nanos", Duration.between(beforeTime, afterTime).toNanos());
 		return profile;
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private ConcatenationDemo() {
+	}
 }

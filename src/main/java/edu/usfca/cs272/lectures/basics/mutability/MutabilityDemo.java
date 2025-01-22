@@ -136,4 +136,8 @@ public class MutabilityDemo {
 		z++;
 		System.out.println("z: " + z);
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private MutabilityDemo() {
+	}
 }

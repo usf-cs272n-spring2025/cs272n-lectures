@@ -117,4 +117,8 @@ public class MutabilityQuizDemos {
 		mutability1Questions();
 		mutability2Questions();
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private MutabilityQuizDemos() {
+	}
 }

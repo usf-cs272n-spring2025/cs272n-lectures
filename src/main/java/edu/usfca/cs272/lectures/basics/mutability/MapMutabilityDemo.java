@@ -73,4 +73,8 @@ public class MapMutabilityDemo {
 		output("builderMap.get", builderMap.get(key));
 		System.out.println();
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private MapMutabilityDemo() {
+	}
 }

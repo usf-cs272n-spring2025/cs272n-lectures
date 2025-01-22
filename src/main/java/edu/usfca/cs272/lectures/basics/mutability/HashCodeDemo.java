@@ -196,4 +196,8 @@ public class HashCodeDemo {
 		Object[] args = { label, System.identityHashCode(object), Arrays.toString(object) };
 		System.out.format("%-9s : x%08X : %s %n", args);
 	}
+
+	/** Prevent instantiating this class of static methods. */
+	private HashCodeDemo() {
+	}
 }
