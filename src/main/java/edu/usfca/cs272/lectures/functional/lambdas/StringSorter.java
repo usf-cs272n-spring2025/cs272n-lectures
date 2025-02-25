@@ -58,7 +58,7 @@ public class StringSorter {
 		printList("Natural", words);
 
 		// sort using case-insensitive ordering
-		// https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/lang/String.java#L2053
+		// https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/lang/String.java#L2140-L2141
 		Collections.shuffle(words);
 		words.sort(String.CASE_INSENSITIVE_ORDER);
 		printList("No Case", words);
