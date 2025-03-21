@@ -134,7 +134,7 @@ public class LockDemo {
 	 * same time:
 	 *
 	 * <pre>
-	 * +---SyncDemo A---+ +---SyncDemo B---+
+	 * +---LockDemo A---+ +---LockDemo B---+
 	 * | +-A1-+  +-A2-+ | | +-B1-+  +-B2-+ |
 	 * | |    |  |    | | | |    |  |    | |
 	 * | +----+  +----+ | | +----+  +----+ |

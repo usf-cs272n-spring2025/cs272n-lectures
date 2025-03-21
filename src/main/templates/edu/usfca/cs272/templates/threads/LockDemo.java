@@ -56,11 +56,11 @@ public class LockDemo {
 	}
 
 	/*
-	 * +---SyncDemo A---+ +---SyncDemo B---+
-	 * | +-A1-+  +-A2-+ | | +-B1-+  +-B2-+ |
-	 * | |    |  |    | | | |    |  |    | |
-	 * | +----+  +----+ | | +----+  +----+ |
-	 * +----------------+ +----------------+
++---LockDemo A---+ +---LockDemo B---+
+| +-A1-+  +-A2-+ | | +-B1-+  +-B2-+ |
+| |    |  |    | | | |    |  |    | |
+| +----+  +----+ | | +----+  +----+ |
++----------------+ +----------------+
 	 */
 
 	public static void main(String[] args) throws InterruptedException {
