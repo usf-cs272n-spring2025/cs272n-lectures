@@ -99,4 +99,43 @@ public class RegexChallenge extends RegexHelper {
 
 		System.out.println();
 	}
+
+	/*
+	 * EXPECTED OUTPUT:
+
+     [hb].*b ->  1 matches: [hubbub]
+    [hb].*?b ->  2 matches: [hub, bub]
+   [hb].*bb* ->  1 matches: [hubbub]
+   [hb].*bb+ ->  1 matches: [hubb]
+   [hb].*bb? ->  1 matches: [hubbub]
+ [hb].*?bb?? ->  2 matches: [hub, bub]
+
+     \w*a\w* ->  4 matches: [ant, ape, bat, cat]
+     \w+a\w+ ->  2 matches: [bat, cat]
+      \w+t\b ->  3 matches: [ant, bat, cat]
+  \w*[^e]e\b ->  1 matches: [ape]
+
+ Text: dragonfly
+Regex: (drag(on))(fly)
+
+0: dragonfly
+1: dragon
+2: on
+3: fly
+
+ Text: dragonfly
+Regex: (drag((on)(fly)))
+
+0: dragonfly
+1: dragonfly
+2: onfly
+3: on
+4: fly
+
+(?i).+?[+?]?(?:\?[^?])+? ->  1 matches: [???!]
+(?i).+?[+?]?(?:\?[^?])+? ->  1 matches: [++?+]
+(?i).+?[+?]?(?:\?[^?])+? ->  1 matches: [o+?o]
+(?i).+?[+?]?(?:\?[^?])+? ->  1 matches: [ahhhhh???!]
+(?i).+?[+?]?(?:\?[^?])+? ->  1 matches: [?????????!]
+	*/
 }
